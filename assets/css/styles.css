@@ -1,0 +1,44 @@
+body {
+  color: #333;
+}
+
+body, input, button {
+  line-height: 1.4;
+  font: 13px Helvetica,arial,freesans,clean,sans-serif;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+
+
+.noDisplay{
+	display:none;
+}
+
+.ui-autocomplete {
+	background-color: white;
+	width: 400px;
+	border: 1px solid #333333;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.ui-autocomplete a{
+	color:#333333;
+}
+
+
+.ui-autocomplete li { 
+  cursor: pointer; 
+  border-bottom: 1px solid #333333;
+  padding-top: 2px;
+  padding-bottom:2px;
+}
+
+.ui-autocomplete li:hover{
+background-color:#CCCCCC;	
+}
+
